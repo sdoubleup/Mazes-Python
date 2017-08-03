@@ -1,4 +1,4 @@
 '''
-Module containing maze generation code.
+Package containing maze generation code.
 '''
 pass

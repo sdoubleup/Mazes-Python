@@ -39,7 +39,7 @@ class Cell(object):
         '''
         self.links.add(cell)
         if bidirectional and not cell.linked(self):
-            cell.link(self, bidirection=False)
+            cell.link(self, bidirectional=False)
 
     def unlink(self, cell):
         '''
